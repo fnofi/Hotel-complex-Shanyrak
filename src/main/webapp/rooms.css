@@ -1,0 +1,20 @@
+.links{
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+a.link{
+    margin-bottom: 40px;
+    color: #030305;
+    border-bottom: 3px solid #030305;
+}
+
+.photo{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.info{
+    margin-left: 100px;
+    margin-right:    100px;
+}

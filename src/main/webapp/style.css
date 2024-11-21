@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+}* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height: 100px;
+}
+.name{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+a{
+    color: black;
+}
+a.logo:hover{
+    border-bottom: 3px solid #030305;
+}
+.container{
+    display: flex;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.bron{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.myProducts-gallery img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .5;
+}
+
+.myProducts-gallery img:hover {
+    opacity: 1;
+}
+
+.myProducts-gallery {
+    float: left;
+}
+
+.myProducts {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding: 20px;
+    width: 334px;
+    height: 64px;
+    background: #030305;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: background-color .5s;
+}
+
+.up{
+    padding: 10px;
+    width: 45px;
+    height: 20px;
+    background: #030305;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    transition: background-color .5s;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.bron_but{
+    padding: 17px;
+    width: 200px;
+    height: 52px;
+    background: #030305;
+    border: 0;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    transition: background-color .5s;
+    text-align: center;
+}
+.up:hover{
+    cursor: pointer;
+    background:#575757;
+}
+.busy{
+    color: red;
+}
+.busy:hover{
+    font-weight: bold;
+}
+.bron_but:hover{
+    cursor: pointer;
+    background:#575757;
+}
+.log_in{
+    padding: 10px;
+    width: 35px;
+    height: 20px;
+    background: #030305;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    transition: background-color .5s;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.log_in:hover{
+    cursor: pointer;
+    background:#575757;
+}
+.button:hover{
+    cursor: pointer;
+    background:#575757;
+}
+
+.image-container img {
+    height: 400px;
+    transition: transform 1s;
+}
+
+.image-container img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.image-container {
+    float: right;
+    padding: 10px;
+}
+
+.container1{
+    margin:0 auto;
+}
+
+.hero-text{
+    width: 475px;
+}
+.hero-text h2{
+    text-align: left;
+    margin-bottom: 0;
+}
+.action-wrap .hero-text{
+    width: 475px;
+}
+.action-wrap .intro{
+    margin: 24px 0;
+    width:371px;
+}
+.action-logo{
+    width: 465px;
+}
+.action-wrap{
+    color: #FFFFFF;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+    grid-gap: 101px;
+    justify-content:center;
+}
+
+.social{
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    max-width: 40px;
+}
+
+.about{
+    margin: 100px;
+    font-family: 'PT Serif', serif;
+}
+
+
+h2{
+    color: black;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+ul{
+    margin: 30px;
+}
+
+li{
+    font-family: 'PT Serif', serif;
+}
+
+p{
+    font-family: 'PT Serif', serif;
+    margin-bottom: 30px;
+}
+h4{
+    margin-bottom: 30px;
+}
+span.info{
+    font-family: 'PT Serif', serif;
+    color: black;
+    max-width: 60px;
+}
+span.caption{
+    font-family: 'PT Serif', serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+span.caption:hover{
+    font-weight: bold;
+}
+
+.rooms{
+    margin: 100px;
+    text-align: center;
+}
+
+img.studio{
+    display: inline;
+}
+.room{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.room:hover{
+    font-weight: bold;
+}
+.rules{
+    margin: 100px;
+    font-family: 'PT Serif', serif;
+}
+input.date{
+    margin: 10px 100px 20px;
+    font-family: 'PT Serif', serif;
+    color: #030305;
+    font-size: large;
+}
+.date{
+    display: flex;
+    justify-content: center;
+}
+
+p.online{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
